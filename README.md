@@ -1,2 +1,1 @@
-# ah-enrollment-ui
-The React Single Page Application (SPA) where brokers or employees step through the Open Enrollment wizard.
+Passes a session token to the backend on every request to prove that the UI doesn't care which backend pod processes the next step of the wizard.
