@@ -1,0 +1,45 @@
+# ===== React / Vite / Node (ah-enrollment-ui) =====
+
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+.yarn/
+jspm_packages/
+
+# Build output
+dist/
+dist-ssr/
+build/
+out/
+.vite/
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing / coverage
+coverage/
+.nyc_output/
+
+# Caches
+.cache/
+.eslintcache
+.parcel-cache/
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.local
